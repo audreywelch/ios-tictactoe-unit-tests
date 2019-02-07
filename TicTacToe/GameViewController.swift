@@ -21,6 +21,12 @@ class GameViewController: UIViewController, BoardViewControllerDelegate {
         gameState = .active(.x)
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Need to tell it to actually change what's in the label when it loads
+        updateViews()
+    }
+    
     // MARK: - BoardViewControllerDelegate
     
     func boardViewController(_ boardViewController: BoardViewController, markWasMadeAt coordinate: Coordinate) {

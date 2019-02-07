@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -36,6 +37,16 @@
                BlueprintIdentifier = "84C244B3220B4E310052B975"
                BuildableName = "TicTacToeTests.xctest"
                BlueprintName = "TicTacToeTests"
+               ReferencedContainer = "container:TicTacToe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84C244C9220C9F0A0052B975"
+               BuildableName = "TicTacToeUITests.xctest"
+               BlueprintName = "TicTacToeUITests"
                ReferencedContainer = "container:TicTacToe.xcodeproj">
             </BuildableReference>
          </TestableReference>
